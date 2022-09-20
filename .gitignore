@@ -1,0 +1,6 @@
+chatApi/__pycache__
+chatApi/migrations
+socketApi/__pycache__
+socketApi/migrations
+Tech_Assesment/__pycache__
+db.sqlite3
