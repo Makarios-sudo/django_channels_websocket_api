@@ -77,7 +77,7 @@ def get_message(request, id):
         message.is_read_receipt = True
         serializer = MessageSerilaizer(instance=message)
         return Response(({
-            
+            "LoggedIn user":request.user.username,
             "Message":serializer.data   
         }))
     elif not sender or receiver:
